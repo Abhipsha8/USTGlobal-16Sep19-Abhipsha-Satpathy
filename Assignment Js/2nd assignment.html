@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2nd assignment</title>
+</head>
+<body>
+    <script>
+        //Named function
+        var fact=1;
+        function fact1(num1)
+        {
+		for(var i=num1;i>0;i--)
+		{
+			fact*=i;
+		}
+		console.log('fact=',fact);
+    }fact1(9);  
+    //function Expression
+    var fact=1;
+    var fact2=function(num1)
+              {
+                  for(var i=num1;i>0;i--)
+                  {
+                      fact*=i;
+                  }console.log('fact=',fact);
+              }
+   fact2(9);
+    //self Invoked Function
+    var fact=1;
+    (function(num1)
+    {
+        for(var i=num1;i>0;i--)
+        {
+            fact*=i;
+        }
+        console.log('fact=',fact);
+    })
+    (9);
+    //Fat Arrow Function
+  var fact=1;
+  var fac=(num1)=>
+  {
+    for(var i=num1;i>0;i--)
+        {
+            fact*=i;
+        }
+        console.log('fact=',fact);
+  }
+  fac(9);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

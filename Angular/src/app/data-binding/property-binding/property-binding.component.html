@@ -1,0 +1,30 @@
+<h1 [innerText]="name"></h1>
+<img [src]="imgUrl" alt="" [class.rounded-circle]="isActive">
+
+<h1 [style.color]="colorName"[class.bg-dark]= "isActive" [class.bg.success] = !isActive>{{address}}</h1>
+<table class="table table-dark table-bordered table-stripted">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th [attr.colspan]="colSpanValue">Contact Number</th>
+        </tr>
+        <tr>
+            <th>Abhi</th>
+            <th>43</th>
+            <th>8899</th>
+        </tr>
+        <tr>
+            <th>gtd</th>
+            <th>76</th>
+            <th>9900</th>
+        </tr>
+        <tr>
+            <th>errf</th>
+            <th>87</th>
+            <th>0988</th>
+        </tr>
+    </thead>
+
+
+</table>

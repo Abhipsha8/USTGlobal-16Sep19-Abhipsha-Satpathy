@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3rd assignment</title>
+</head>
+<body>
+    <script>
+        //named function
+        var a=0;
+        var b=1;
+        var c;
+		function fibo(num)
+        {
+		 for(var i=3;i<=num;i++)
+		 {
+			c=a+b;
+			a=b;
+			b=c;
+		 }
+         console.log('fibo=',c);
+        }
+        fibo(9);
+        //Function Expression
+        var fibo1=function fibo(num)
+        {
+		 for(var i=3;i<=num;i++)
+		 {
+			c=a+b;
+			a=b;
+			b=c;
+		 }
+         console.log('fibo=',c);
+        }
+       fibo1(9);
+       //self  Invoked Function
+       var a=0;
+       var b=1;
+       var c;
+       (function(num)
+       {
+        for(var i=1;i<=num;i++)
+		 {
+			c=a+b;
+			a=b;
+			b=c;
+		 }
+         console.log('fibo=',c);
+       })
+       (9)
+
+       //Fat Arrow Function
+       var a=0;
+       var b=1;
+       var c;
+       var fibo=(num)=>
+       {
+        for(var i=1;i<=num;i++)
+		 {
+			c=a+b;
+			a=b;
+			b=c;
+		 }
+         console.log('fibo=',c);
+       }
+       fibo(9);
+    
+
+    </script>
+</body>
+</html>

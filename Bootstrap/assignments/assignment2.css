@@ -1,0 +1,71 @@
+#header{
+    background-color: black;
+    height:70px;
+    top: 5px;
+    position:absolute;
+    width:100%;
+}
+#top{
+ margin-left: 200px;
+ top:5px;
+ color:white;
+ position: absolute;
+ text-decoration: none;
+ font-size: 25px;
+}
+#work{
+    margin-left: 300px;
+    top:5px;
+    color:white;
+    position: absolute;
+    text-decoration: none;
+    font-size: 25px;
+}
+#port{
+    margin-left: 400px;
+    top:5px;
+    color:white;
+    position: absolute;
+    text-decoration: none;
+    font-size: 25px;
+}
+#contact{
+    margin-left: 550px;
+    top:5px;
+    color:white;
+    position: absolute;
+    text-decoration: none;
+    font-size: 25px;
+}
+#img-with-text{
+    margin-left: 500px;
+    top: 250px;
+    position: absolute;
+}
+
+
+}
+#sh{
+    
+    margin-left: 400px;
+    top:400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+}
+#mini{
+    
+    margin-left: 300px;
+    top:500px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.bu{
+    margin-left: 600px;
+    position: absolute;
+    top: 500px;
+    
+}
+.card{
+    top: 300px;
+}

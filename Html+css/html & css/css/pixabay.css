@@ -1,0 +1,46 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+#woo{
+    border:1px solid black;
+    height:800px;
+    background-image: url(/image/pixa.jpg);
+    backface-visibility: visible;
+    background-size: cover;
+    color:white;
+}
+#Rr{
+    height:67px;
+    float:left;
+}
+p{
+    padding-top: 20px;
+    float:left;
+    margin-left:30px;
+    font-size: 20px;
+}
+#login
+{
+    margin-top:122px;
+    margin-left:320px;
+    text-align:  center;
+}
+h1{
+    font-size: 40px;
+    font-style: unset;
+    padding-left: 68px;
+}
+#txt{
+    width:800px;
+    height:64px;
+    border-radius:8px;
+    background-repeat: no repeat;
+}
+input[type='text']
+{
+    font-family: normal;
+    font-size:20px;
+    text-align: center;
+}

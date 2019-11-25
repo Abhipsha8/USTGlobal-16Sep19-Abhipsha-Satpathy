@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>5th assignment</title>
+</head>
+<body>
+    <script>
+        //for of loop
+        var cars=["BMW","Benz","audi","farari"];
+        for(var element of cars)
+        {
+            console.log("value:",element);
+        }
+        var items=["eyeliner","lipstick","nail polish"];
+        for(var element of items)
+        {
+            console.log("value:",element);
+        }
+        //for loop
+        var heros=["salman","arjun","amir"];
+        for(var i=0;i<heros.length;i++)
+        {
+            console.log(heros[i]);
+        }
+        var heroine=["aishwarya","amrita","madhuri","madhubala"];
+        for(var i=0;i<heroine.length;i++)
+        {
+            console.log(heroine[i]);
+        }
+        //for in loop
+        var girlsname=["missy","gudly","abhipsha","karishma"];
+        for(var index in girlsname)
+        {
+            console.log("value",girlsname[index])
+            console.log("index=",index);
+        }
+        var boysname=["Abhya","sumanta","bubu","chikun"];
+        for(var index in boysname)
+        {
+            console.log("value",boysname[index]);
+            console.log("index=",index);
+        }
+        //for in loop of object
+        var person={
+            name:"abhipsha",
+            age:21,
+            gender:'female',
+        }
+         for(var index in person)
+         {
+             console.log('value=',person[index]);
+         }
+         var fruits={
+             name:"mango",
+             season:"summer",
+             price:150,
+         }
+         for(var index in fruits)
+         {
+             console.log('value=',fruits[index]);
+         }
+         //For Each Method of Array
+         var numbers=[1,2,3,4,5];
+         numbers.forEach(function(value,index){
+             console.log('numbers=',value);
+         })
+         var movies=["ready","singham","dil","kyun"];
+         movies.forEach(function(value,index)
+         {
+             console.log("movies=",value);
+        
+         })
+ var states = ['Andhra Pradesh','Tamil Nadhu','Kernataka','Kerala','Odisa'];
+for(var i = 0;i<states.length;i++)
+
+{
+
+    console.log('for loop for states',states[i]);
+
+}
+
+console.log('===============');
+
+ 
+
+var cities = ['Hydarabad','Chennai','Bangalore','Thiruvandha Puram','Bhumeshver']
+
+for(var i = 0;i<cities.length;i++)
+
+{
+
+    console.log('for loop cities',cities[i])
+
+}
+
+console.log('============')
+
+ 
+
+var bikes = ['Royal Enfield','Honda','Activa','Yamaha']
+
+for(var i = 0;i<bikes.length;i++)
+
+{
+
+    console.log('for loops bikes',bikes[i])
+
+}
+
+console.log('===========')
+
+ var cars = ['aadi','Ford GT','Toyata','Honda']
+
+ for(var i =0;i<cars.length;i++)
+
+ {
+
+     console.log('for loop cars',cars[i])
+
+ }
+
+ console.log('============')
+
+ 
+
+ var fruits = ['Apple','Orange','Banana','Grapes']
+
+ for(var i=0;i<fruits.length;i++)
+
+ {
+
+     console.log('for loop fruits',fruits[i])
+
+ }
+
+ console.log('==========')
+
+ var vegitable = ['carrot','tamato','Onion','Chille']
+
+ for(var i=0;i<vegitable.length;i++)
+
+ {
+
+     console.log('for loop vegitable',vegitable[i])
+
+ }
+
+ console.log('==========')
+
+  var names = ['Sumiya','Bushra','UmaPriya','Lahari','Afzal','Nagarjuna']
+
+  for(var i=0;i<names.length;i++){
+
+      console.log('for loop names',names[i])
+
+  }
+
+  console.log('=========')
+
+   var MyFamilyMembers = ['Akbar Basha','Badroonnisa','Sumiya','Sabiha','Rahman','Raheem']
+
+   for(var i=0;i<MyFamilyMembers;i++){
+
+       console.log('for loop myFamilyMembers',MyFamilyMembers[i])
+
+   }
+
+   console.log('==========')
+
+   var colors = ['Blue','Yellow','Red','Black','White']
+
+   for(var i=0;i<colors.length;i++){
+
+       console.log('for loop colors',colors[i])
+
+   }
+
+   console.log('==========')
+
+   var laptop = ['HP','Lenova','Dull']
+
+   for(var i=0;i<laptop.length;i++)
+
+   {
+
+       console.log('for loop laptop',laptop[i])
+
+   }
+
+   console.log('==========')
+
+   var phone = ['Redmi','Samsung','Horon','Vivo']
+
+   for(var i=0;i<phone.length;i++){
+
+       console.log('for loop phone',phone[i])
+
+   }
+
+   console.log('forEach loop')
+
+   var movies = ['sholay','mayabazar','jurassic park','Titanic']
+
+   movies.forEach(function(value)
+
+   {
+
+       console.log('forEach loop of movies',value)
+
+   });
+
+   console.log('==========')
+
+   var phone = ['Redmi','samsung','Horon','Vivo']
+
+   phone.forEach(function(value){
+
+       console.log('forEach loop of phone',value)
+
+   });
+
+   console.log('=========')
+
+   var laptop = ['HP','Lenova','Dell']
+
+    laptop.forEach(function(value)
+
+    {
+
+        console.log('forEach loop of laptop',value)
+
+    });
+
+    console.log('============')
+
+    var colors = ['Blue','Green','Red','Black']
+
+    colors.forEach(function(value,index){
+
+        console.log('forEach loop of colors',value)
+
+    });
+
+    console.log('=========')
+
+    var names = ['sumi','bushi','uuo','lahu']
+
+    names.forEach(function(value){
+
+        console.log('forEach of names',value)
+
+    })
+
+    console.log('==========')
+
+    var vegitable = ['Tamato','Onion','Chilly']
+
+    vegitable.forEach(function(value){
+
+        console.log('forEach of vegitable',value)
+
+    })
+
+    console.log('==========')
+
+    var fruits = ['Mango','Orange','Banana']
+
+    fruits.forEach(function(value){
+
+        console.log('forEach loop of fruits',value)
+
+    })
+
+    console.log('=========')
+
+    var organ = ['eye','ear','mouth','hands']
+
+    organ.forEach(function(value,index){
+
+        console.log('forEach of organ',value)
+
+    })
+
+    console.log('==========')
+
+    var states = ['andhra pradesh','tamil nadhu','odisa','karnataka']
+
+    states.forEach(function(value){
+
+        console.log('forEach of states',value)
+
+    })
+
+    console.log('==========')
+
+    var city = ['hydarabad','chennai','bangalore']
+
+    city.forEach(function(value){
+
+        console.log('forEach of city',value)
+
+    })
+
+    console.log('==========')
+
+    console.log('for of loop')
+
+    var brands = ['kingfisher','bisleri','aqua','kinley']
+
+    for(var elements of brands){
+
+        console.log('value',elements)
+
+    }
+
+    console.log('=======')
+
+    var colors = ['orange','green','red']
+
+    for(var sumi of colors){
+
+        console.log('value',sumi)
+
+    }
+
+    console.log('========')
+
+    var states = ['andhra pradesh','tamil nadhu','odisa']
+
+    for(var bushi of states){
+
+        console.log('value',bushi)
+
+    }
+
+    console.log('=======')
+
+    var city = ['hydarabad','chennai','bangalore']
+
+    for(var uuo of city){
+
+        console.log('value',uuo)
+
+    }
+
+    console.log('=======')
+
+    var cars = ['aadhi','honda','toyata']
+
+    for(var nag of cars){
+
+        console.log('value',nag)
+
+    }
+
+    console.log('========')
+
+    var bikes = ['activa','royal enfield','hero honda']
+
+    for(var element of bikes){
+
+        console.log('value',element)
+
+    }
+
+    console.log('======')
+
+    var fruits = ['apple','orangr','grapes']
+
+    for(var element of fruits){
+
+        console.log('value',element)
+
+    }
+
+    console.log('=======')
+
+    var vegitable = ['tamota','onion','bringal']
+
+    for(var element of vegitable){
+
+        console.log('value',element)
+
+    }
+
+    console.log('=======')
+
+    var organ = ['eye','ear','leg','nose']
+
+    for(var element of organ){
+
+        console.log('value',element)
+
+    }
+
+    console.log('==========')
+
+    var names = ['abdul','raheem','sumi','sabi','rahman']
+
+    for(var element of names){
+
+        console.log('value',element)
+
+    }
+
+    console.log('=========')
+
+    console.log('for in loop in arrays')
+
+     var brands = ['kingfisher','aqya','bisleri']
+
+     for(var element in brands){
+
+         console.log('brands',brands[element])
+
+     }
+
+     console.log('=======')
+
+     var bikes = ['hero honda','activa','pulser','karizma']
+
+     for(var index in bikes){
+
+         console.log('bikes',bikes[index])
+
+     }
+
+     console.log('========')
+
+     var cars = ['aadhi','safari','toyota']
+
+     for(var index in cars){
+
+         console.log('cars',cars[index])
+
+     }
+
+     console.log('=======')
+
+     var color = ['blue','red','green']
+
+     for(var index in color){
+
+         console.log('color',color[index])
+
+     }
+
+     console.log('=======')
+
+     var fruits = ['apple','orange','banana']
+
+     for(var index in fruits){
+
+         console.log('fruits',fruits[index])
+
+     }
+
+     console.log('======')
+
+     var states = ['andhra pradesh','tamil nadhu','karnataka']
+
+     for(var index in states){
+
+         console.log('states',states[index])
+
+     }
+
+     console.log('=======')
+
+    var city = ['hydarabad','chennai','bamgalore']
+
+    for(var index in city){
+
+        console.log('city',city[index])
+
+    }
+
+    console.log('=======')
+
+    var company = ['ust global','accenture','capgemini']
+
+    for(var index in company){
+
+        console.log('comapny',company[index])
+
+    }
+
+    console.log('=======')
+
+    var organ = ['eye','ear','nose']
+
+    for(var index in organ){
+
+        console.log('organ',organ[index])
+
+    }
+
+    console.log('========')
+
+    var branches = ['ece','eee','cse','mech','civil']
+
+    for(var index in branches){
+
+        console.log('branches',branches[index])
+
+    }
+
+    console.log('=======')
+
+
+
+
+    </script>
+</body>
+</html>
